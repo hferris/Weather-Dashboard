@@ -5,8 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 <body>
+        <nav>
+        <a class="navbar" href="">Forecast</a>
+
+        <h1>Weather Dashboard</h1>
     
-</body>
+        </nav>
+        <div class="col-2">
+            <div class="row-4">
+                <h3>Search for a city</h3>
+                <form id="city-search">
+                    <input type="text" id="city-input" class="" placeholder="Location">
+                    <button class="btn" id="search">Search</button>
+                </form>
+
+            </div>
+            <div class="row-8">
+                <ul id=cityList>
+                    
+                </ul>
+            </div>
+            
+        </div>
+        <div id="currentCity" class="col-10">
+            <h3>Current Weather:</h3>
+            <h3 id="currTitle"></h3>
+            <p>
+                Temp: <span id="currTemp"></span>
+                <br>
+                Humidity: <span id="currHumidity"></span>
+                <br>
+                UV: <span id="currUV"></span>
+                
+            </p>
+        </div>
+            
+     
+            
+
+            <!-- <div>
+                <div class="col-12">
+                    <p id="temperature"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p id="humidity"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p id="windspeed"></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <p id="UVindex"></p>
+            </div>
+                
+                <h2>5-Day Forecast</h2> -->
+                   
+  </body>
+  <script src="./assets/js/script.js"></script>
 </html>

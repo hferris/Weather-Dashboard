@@ -1,3 +1,33 @@
-#Weather-Dashboard{
-    background-color: blue;
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+    background-color: lightblue
+}
+
+.navbar{
+    font-size: large;
+}
+
+h1 { color: black; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px; 
+    font-weight: bold; 
+    line-height: 50px; 
+    margin: 0px; 
+    text-align: center;
+
+}
+
+h2{
+    text-indent: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    text-indent: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#currentCity {
+    visibility: hidden;
 }
